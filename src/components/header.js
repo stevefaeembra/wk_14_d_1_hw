@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class Header extends Component {
   render() {
     return (
-      <h1>I are header, rawr!</h1>
+      <div className="header">
+        I are header, rawr!
+      </div>
     )
   }
 }

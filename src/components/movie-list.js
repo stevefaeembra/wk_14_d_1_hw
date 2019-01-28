@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class MovieList extends Component {
   render() {
     return (
-      <h1>O hai, MovieList here.</h1>
+      <div className="movielist">
+        O hai, MovieList here.
+      </div>
     )
   }
 }
