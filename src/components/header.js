@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <div className="header">
-        I are header, rawr!
+        {this.props.title}
       </div>
     )
   }

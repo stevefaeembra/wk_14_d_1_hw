@@ -14,7 +14,7 @@ class Page extends Component {
   render() {
     return (
       <div className='page'>
-        <Header />
+        <Header title='Upcoming Film Releases for UK' />
         <MovieList />
         <MoreMovies />
       </div>
