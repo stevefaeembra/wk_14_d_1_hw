@@ -15,7 +15,7 @@ class Page extends Component {
     return (
       <div className='page'>
         <Header title='Upcoming Film Releases for UK' />
-        <MovieList />
+        <MovieList movies={this.state.movies} />
         <MoreMovies />
       </div>
     );
