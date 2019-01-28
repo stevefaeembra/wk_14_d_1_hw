@@ -4,7 +4,9 @@ class MoreMovies extends Component {
   render() {
     return (
       <div className="moremovies">
-        MoreMovies goes here kthanxbye
+        <a href="http://www.imdb.com/calendar/?region=gb">
+          View more upcoming releases >>>
+        </a>
       </div>
     )
   }
