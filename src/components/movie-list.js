@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MovieListItem from './movie-list-item';
 
 class MovieList extends Component {
   render() {
@@ -7,7 +8,7 @@ class MovieList extends Component {
     let allmovies = [];
     this.props.movies.forEach((movie) => {
       movie['key'] = movie.id;
-      let thisMovie = <ul key={movie.id}><li>{movie.name}</li></ul>;
+      let thisMovie = <MovieListItem key={movie.id} name={movie.name} url={movie.url} />
       allmovies.push(thisMovie);
     });
     return (
